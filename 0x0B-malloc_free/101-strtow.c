@@ -43,7 +43,7 @@ int count_words(char *str)
 		if (*(str + index) != ' ')
 		{
 			words++;
-			index += word+len(str + index);
+			index += word + len(str + index);
 		}
 	}
 
